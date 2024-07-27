@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.scoreboard-block {
+  display: none;
+  position: absolute;
+  height: fit-content;
+  width: 30vh;
+  right: 3vh;
+  top: 15vh;
+  margin: 1vh;
+}
+
+
+
+
+.scoreboard-header {
+  position: relative;
+  width: 100%;
+  height: 5vh;
+  border-radius: 0.8rem;
+}
+
+.title{
+  margin-left: 1.3vh;
+  text-transform: uppercase;
+  color: white;
+  border-bottom: 1px double #32a1ce;
+}
+
+.scoreboard-header > p {
+  text-align: center;
+  font-weight:600;
+  color: #b7dc14;
+  padding: 1.3vh;
+  font-family: "poppins", sans-serif;
+  font-size: 2.5vh;
+}
+
+.status {
+  position: absolute;
+  right: 3vh;
+}
+
+#status-tab-label {
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  right: 3vh;
+  font-weight:300;
+}
+
+.info-beam-title {
+  position: absolute;
+  padding-bottom: 1px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3vh;
+  letter-spacing: 0.1vh;
+  left: 2.7vh;
+  line-height: 3.5vh;
+  font-weight: 300;
+  color: white;
+}
+
+
+.info-beam-status {
+  position: absolute;
+  align-self: center;
+  font-family: "Poppins", sans-serif;
+  right: 3vh;
+  float: left;
+  text-align: left;
+  line-height: 4.5vh;
+}
+
+.scoreboard-info-beam {
+  position: relative;
+  background: radial-gradient(circle, rgba(74, 94, 38, 0.684) 0%, rgba(61, 79, 31, 0.256) 100%);
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 0.1px;
+  border-color: rgb(134, 164, 77);
+  align-items: center;
+  margin: 10px;
+  height: 4.5vh;
+  width: 95%;
+  border-radius: 0.8rem;
+}
+
+.job-info-conatiner{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+  padding: 10px;
+
+}
+
+.job-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 5px;
+  height: 3rem;
+  width: 4rem;
+  border-radius: 0.5rem;
+  background: radial-gradient(circle, rgba(74, 94, 38, 0.684) 0%, rgba(61, 79, 31, 0.256) 100%);
+  border-style: solid;
+  border-radius: 50% 20% / 10% 40%;
+  border-width: 0.1px;
+  border-color: rgb(134, 164, 77);
+  color: rgb(255, 255, 255);
+}
+
+.job-infop{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 5px;
+  height: 3rem;
+  width: 4rem;
+  border-radius: 0.5rem;
+  background: radial-gradient(circle, rgba(0, 195, 202, 0.684) 0%, rgba(1, 133, 143, 0.256) 100%);
+  border-style: solid;
+  border-radius: 50% 20% / 10% 40%;
+  border-width: 0.1px;
+  border-color: rgb(134, 164, 77);
+  color: rgb(255, 255, 255);
+}
+.job-infoa{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 3px;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 1rem;
+  background: radial-gradient(circle, rgba(0, 202, 44, 0.684) 0%, rgba(1, 143, 13, 0.256) 100%);
+  border-style: solid;
+  border-radius: 50% 20% / 10% 40%;
+  border-width: 0.1px;
+  border-color: rgb(134, 164, 77);
+  color: rgb(255, 255, 255);
+}
+
+.job-infot{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 3px;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 1rem;
+  background: radial-gradient(circle, rgba(224, 221, 33, 0.684) 0%, rgba(226, 222, 0, 0.256) 100%);
+  border-style: solid;
+  border-radius: 50% 20% / 10% 40%;
+  border-width: 0.1px;
+  border-color: rgb(134, 164, 77);
+  color: rgb(255, 255, 255);
+}
+
+.job-infom{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 3px;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 1rem;
+  background: radial-gradient(circle, rgba(33, 224, 160, 0.684) 0%, rgba(0, 226, 139, 0.256) 100%);
+  border-style: solid;
+  border-radius: 50% 20% / 10% 40%;
+  border-width: 0.1px;
+  border-color: rgb(134, 164, 77);
+  color: rgb(255, 255, 255);
+}
+
+.job-label{
+  margin-top: 3px;
+  font-size: 7px;
+}
+
+.job-info i{
+  margin-top: 3px;
+  font-size: 7px;
+}
+
+.status-value{
+  padding-top: 2px;
+  align-self: center;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.net-info-container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.player-info-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5.5vh;
+  margin: 10px;
+  background: radial-gradient(circle, rgba(114, 114, 114, 0.322) 0%, rgba(77, 79, 87, 0.177) 100%);
+  border-style: solid;
+  border-width: 0.1px;
+  border-color: rgba(110, 110, 119, 0.925);
+  border-radius: 3px;
+}
+
+.rob-title-container{
+  display: flex;
+  justify-content: space-between;
+ }
+ 
+.player-job-title{
+   display: flex;
+   justify-content: space-between;
+   font-size: 1.3vh;
+   font-weight: 300;
+ }
+
+ #player-rank{
+  margin-right: 10px;
+ }
+
+.grade {
+  position: relative;
+  right: 3vh;
+}
+
+.job{
+  padding-right: 50px;
+}
+
+.duty-toggle{
+  margin-left: 12px;
+  font-size: 30px;
+}
+
+.net-info-panel{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5.5vh;
+  margin: 10px;
+  background: radial-gradient(circle, rgba(114, 114, 114, 0.322) 0%, rgba(77, 79, 87, 0.177) 100%);
+  border-style: solid;
+  border-width: 0.1px;
+  border-color: rgba(110, 110, 119, 0.925);
+}
+
+.id-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 2.7rem;
+  width: 2.7rem;
+  background: radial-gradient(circle, rgba(74, 94, 38, 0.684) 0%, rgba(61, 79, 31, 0.256) 100%);
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 0.1px;
+  border-color: rgb(134, 164, 77);
+  border-radius: 0.5rem;
+  margin-left: 10px;
+  color: white;
+}
+
+.id-title{
+  align-self: center;
+  font-size: 12px;
+  margin: 4px;
+}
+
+.net-container{
+  display: flex;
+  margin-right: 10px;
+  gap: 12px;
+}
+
+.ping-container {
+  align-self: center;
+  font-variant-numeric: tabular-nums;
+  gap: 2px;
+  color:#5ce27b;
+}
+
+.fa-times {
+  color: #dc143c;
+}
+
+.fa-check {
+  color: #5ce27b;
+}
+
+.fa-clock {
+  color: #2873a7;
+}
