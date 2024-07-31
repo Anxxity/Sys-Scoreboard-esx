@@ -1,11 +1,14 @@
 fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
-author 'Yacoub'
+author 'Remin'
 description 'Enables players to view a menu that displays information about the server and other players'
 version '1.0.0'
 
-shared_script 'config.lua'
+shared_script {
+    'config.lua',
+    '@es_extended/imports.lua'
+}
 client_script 'client.lua'
 server_script 'server.lua'
 
